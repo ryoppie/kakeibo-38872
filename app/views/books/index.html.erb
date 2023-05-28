@@ -1,4 +1,5 @@
 <h1>新米夫婦のための家計簿</h1>
+<%=link_to"新規登録",new_book_path,class: "btn btn-success"%>
 
 <table class="table table-striped">
 <tr>
@@ -13,7 +14,7 @@
 <td><%= book.year %>年<%= book.month %>月</td>
 <td><%= book.inout %></td>
 <td><%= book.category %></td>
-<td><%= book.amount %>万円</td>
+<td><%= book.amount %>円</td>
 <td>
 <%=link_to "詳細",book_path(book), class: "btn btn-info" %>
 </td> 
