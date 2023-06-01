@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2023_05_27_030658) do
     t.string "category"
     t.integer "year"
     t.integer "month"
+    t.integer "day"
     t.integer "amount"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
